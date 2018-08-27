@@ -6,7 +6,7 @@
     var h = canvas.height;
 
     var bg = new Image();
-    bg.src = "bg4.jpg";
+    bg.src = "src/bg4.jpg";
 
     var flakes = [];
 
