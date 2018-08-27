@@ -1,0 +1,48 @@
+body{
+  background: #30336b;
+  font-family: 'Playfair Display', serif;
+  height: 100%
+}
+
+#canvas{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  box-shadow: 0 0 10px 0 #999;
+  height: 100%;
+}
+
+#titleDays {
+  font-size: 2vw;
+  color: #dff9fb;
+}
+
+.countdownContainer{
+  position: absolute;;
+  top: 15%;
+  left: 50%;
+  transform : translateX(-50%) translateY(-50%);
+  text-align: center;
+}
+
+.info {
+  font-size: 5vw;
+  color: #dff9fb;
+  margin: auto;
+  width: 80%
+}
+.infoTitle {
+  font-size: 4vw;
+  color: #dff9fb;
+  margin: auto;
+  width: 80%
+}
+
+audio {
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+  transform : translateX(-50%) translateY(-50%);
+  opacity: 0.7;
+}
