@@ -38,4 +38,4 @@
 
     setInterval(snowfall, 20);
   };
-  window.onload = init;
+window.onload = init;
